@@ -1,0 +1,929 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 12.0px Menlo; color: #1b1f22; -webkit-text-stroke: #1b1f22}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; line-height: 20.0px; font: 12.0px Menlo; color: #15171a; color: rgba(21, 23, 26, 0.3); -webkit-text-stroke: rgba(21, 23, 26, 0.3); min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 12.0px Menlo; color: #1f762c; -webkit-text-stroke: #1f762c}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 12.0px Menlo; color: #06214f; -webkit-text-stroke: #06214f}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 12.0px Menlo; color: #1b1f22; -webkit-text-stroke: #1b1f22; min-height: 14.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 12.0px Menlo; color: #57606a; -webkit-text-stroke: #57606a}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #1f762c; -webkit-text-stroke: 0px #1f762c}
+    span.s3 {font-kerning: none; color: #5b28b4; -webkit-text-stroke: 0px #5b28b4}
+    span.s4 {font-kerning: none; color: #06214f; -webkit-text-stroke: 0px #06214f}
+    span.s5 {font-kerning: none; color: #1b1f22; -webkit-text-stroke: 0px #1b1f22}
+    span.s6 {font-kerning: none; color: #57606a; -webkit-text-stroke: 0px #57606a}
+    table.t1 {background-color: #ffffff; border-collapse: collapse}
+    td.td1 {width: 128.4px; padding: 0.0px 10.0px 0.0px 10.0px}
+    td.td2 {width: 128.4px; min-width: 50.0px; padding: 0.0px 10.0px 0.0px 10.0px}
+    td.td3 {width: 1595.0px; padding: 0.0px 10.0px 0.0px 10.0px}
+  </style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1">&lt;</span><span class="s2">html</span><span class="s1"> </span><span class="s3">lang</span><span class="s1">=</span><span class="s4">"en"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s5">&lt;</span><span class="s1">head</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">meta</span><span class="s1"> </span><span class="s3">charset</span><span class="s1">=</span><span class="s4">"utf-8"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">meta</span><span class="s5"> </span><span class="s3">http-equiv</span><span class="s5">=</span><span class="s1">"X-UA-Compatible"</span><span class="s5"> </span><span class="s3">content</span><span class="s5">=</span><span class="s1">"IE=edge"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">meta</span><span class="s5"> </span><span class="s3">name</span><span class="s5">=</span><span class="s1">"viewport"</span><span class="s5"> </span><span class="s3">content</span><span class="s5">=</span><span class="s1">"width=device-width, initial-scale=1"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Latest compiled and minified CSS --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s5"> </span><span class="s3">rel</span><span class="s5">=</span><span class="s1">"stylesheet"</span><span class="s5"> </span><span class="s3">href</span><span class="s5">=</span><span class="s1">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"</span><span class="s5"> </span><span class="s3">integrity</span><span class="s5">=</span><span class="s1">"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"</span><span class="s5"> </span><span class="s3">crossorigin</span><span class="s5">=</span><span class="s1">"anonymous"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Optional theme --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s5"> </span><span class="s3">rel</span><span class="s5">=</span><span class="s1">"stylesheet"</span><span class="s5"> </span><span class="s3">href</span><span class="s5">=</span><span class="s1">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"</span><span class="s5"> </span><span class="s3">integrity</span><span class="s5">=</span><span class="s1">"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"</span><span class="s5"> </span><span class="s3">crossorigin</span><span class="s5">=</span><span class="s1">"anonymous"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">script</span><span class="s5"> </span><span class="s3">src</span><span class="s5">=</span><span class="s1">"https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"</span><span class="s5">&gt;&lt;/</span><span class="s2">script</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Latest compiled and minified JavaScript --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">script</span><span class="s5"> </span><span class="s3">src</span><span class="s5">=</span><span class="s1">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"</span><span class="s5"> </span><span class="s3">integrity</span><span class="s5">=</span><span class="s1">"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"</span><span class="s5"> </span><span class="s3">crossorigin</span><span class="s5">=</span><span class="s1">"anonymous"</span><span class="s5">&gt;&lt;/</span><span class="s2">script</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">link</span><span class="s5"> </span><span class="s3">rel</span><span class="s5">=</span><span class="s1">"stylesheet"</span><span class="s5"> </span><span class="s3">type</span><span class="s5">=</span><span class="s1">"text/css"</span><span class="s5"> </span><span class="s3">media</span><span class="s5">=</span><span class="s1">"screen"</span><span class="s5"> </span><span class="s3">href</span><span class="s5">=</span><span class="s1">"style.css"</span><span class="s5">/&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;</span><span class="s2">title</span><span class="s1">&gt;Humidity&lt;/</span><span class="s2">title</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!--[if lt IE 9]&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1"><span class="Apple-converted-space">          </span>&lt;script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"&gt;&lt;/script&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1"><span class="Apple-converted-space">          </span>&lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1"><span class="Apple-converted-space">        </span>&lt;![endif]--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s5">&lt;/</span><span class="s1">head</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5">&lt;</span><span class="s2">body</span><span class="s5"> </span><span class="s3">class</span><span class="s5">=</span><span class="s1">"body1"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1">&lt;!-- Our rows function in containers (grid created). --&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1">&lt;!--&lt;div class="container"&gt;--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1">&lt;!--BEGIN DIV CLASSES--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s5">&lt;</span><span class="s1">body</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">nav</span><span class="s5"> </span><span class="s3">class</span><span class="s5">=</span><span class="s1">"navbar navbar-default"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"container"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s1">&lt;!--BEGIN ACTIVE NAVIGATION--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"navbar-header"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"navbar-brand"</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"index.html"</span><span class="s1">&gt;<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">span</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"nav-color navbaractive"</span><span class="s1">&gt;Latitude&lt;/</span><span class="s2">span</span><span class="s1">&gt;&lt;/</span><span class="s2">a</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">                    </span></span><span class="s1">&lt;!--END ACTIVE NAVIGATION--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">                    </span>&lt;</span><span class="s2">div</span><span class="s5"> </span><span class="s3">class</span><span class="s5">=</span><span class="s1">"nav navbar-nav navbar-right"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s1">&lt;!--BEGIN DROP DOWN NAV--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">li</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"dropdown"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"dropdown-toggle"</span><span class="s1"> </span><span class="s3">data-toggle</span><span class="s1">=</span><span class="s4">"dropdown"</span><span class="s1">&gt;Plots&lt;</span><span class="s2">span</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"caret"</span><span class="s1">&gt;&lt;/</span><span class="s2">span</span><span class="s1">&gt;&lt;/</span><span class="s2">a</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;</span><span class="s2">ul</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"dropdown-menu"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;</span><span class="s2">li</span><span class="s1">&gt;&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"maxtemperature.html"</span><span class="s1">&gt;Max Temperature&lt;/</span><span class="s2">a</span><span class="s1">&gt;&lt;/</span><span class="s2">li</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;</span><span class="s2">li</span><span class="s1">&gt;&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"humidity.html"</span><span class="s1">&gt;Humidity&lt;/</span><span class="s2">a</span><span class="s1">&gt;&lt;/</span><span class="s2">li</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;</span><span class="s2">li</span><span class="s1">&gt;&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"cloudiness.html"</span><span class="s1">&gt;Cloudiness&lt;/</span><span class="s2">a</span><span class="s1">&gt;&lt;/</span><span class="s2">li</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;</span><span class="s2">li</span><span class="s1">&gt;&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"windspeed.html"</span><span class="s1">&gt;Wind Speed&lt;/</span><span class="s2">a</span><span class="s1">&gt;&lt;/</span><span class="s2">li</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/</span><span class="s2">ul</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/</span><span class="s2">li</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s6">&lt;!--END DROP DOWN NAV--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s1">&lt;!--BEGIN DROP DOWN NAV--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">li</span><span class="s1">&gt;&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"comparison.html"</span><span class="s1">&gt; Comparison&lt;/</span><span class="s2">a</span><span class="s1">&gt;&lt;/</span><span class="s2">li</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">li</span><span class="s1">&gt;&lt;</span><span class="s2">a</span><span class="s1"> </span><span class="s3">href</span><span class="s1">=</span><span class="s4">"data.html"</span><span class="s1">&gt; Data&lt;/</span><span class="s2">a</span><span class="s1">&gt;&lt;/</span><span class="s2">li</span><span class="s1">&gt;<span class="Apple-converted-space">           </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s6">&lt;!--BEGIN DROP DOWN NAV--&gt;</span><span class="s1"> <span class="Apple-converted-space">                               </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt; <span class="Apple-converted-space">     </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/</span><span class="s2">nav</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!--DIVIDER ROWS--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">= </span><span class="s4">"container"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">= </span><span class="s4">"row"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"col-md-7"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"main-box whiteback"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;</span><span class="s2">h1</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"main-pg-header"</span><span class="s1">&gt;Humidity&lt;/</span><span class="s2">h1</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;</span><span class="s2">hr</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">=</span><span class="s4">"summary txt"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">                                </span>&lt;</span><span class="s2">img</span><span class="s5"> </span><span class="s3">id</span><span class="s5">=</span><span class="s1">"result-img"</span><span class="s5"> </span><span class="s3">src</span><span class="s5">=</span><span class="s1">"Images/latitude_vs_humidity_ud_02.png"</span><span class="s5"> </span><span class="s3">alt</span><span class="s5">=</span><span class="s1">"Temp vs Latitude"</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;</span><span class="s2">p</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>The purpose of this project was to analyze how weather changes as you get closer to the equator.<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;</span><span class="s2">br</span><span class="s1">&gt;&lt;</span><span class="s2">br</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>Factors we looked at included: temperature, cloudiness, wind speed, and humidity.<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>This site provides the source data and visualizations created as part of the analysis,<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                        </span>as well as explanations and descriptions of any trends and correlations witnessed.</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/</span><span class="s2">p</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">= </span><span class="s4">"col-md-5"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">= </span><span class="s4">"side-box"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;</span><span class="s2">h2</span><span class="s1"> </span><span class="s3">class</span><span class="s1">= </span><span class="s4">"main-pg-subheader"</span><span class="s1">&gt;Visualizations&lt;/</span><span class="s2">h2</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;</span><span class="s2">hr</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;</span><span class="s2">div</span><span class="s1"> </span><span class="s3">class</span><span class="s1">= </span><span class="s4">"sidebar"</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">a</span><span class="s5"> </span><span class="s3">href</span><span class="s5">= </span><span class="s1">"maxtemperature.html"</span><span class="s5">&gt;&lt;</span><span class="s2">img</span><span class="s5"> </span><span class="s3">id</span><span class="s5">= </span><span class="s1">"side-img1"</span><span class="s5"> </span><span class="s3">src</span><span class="s5">=</span><span class="s1">"Images/latitude_vs_temperature_ud_01.png"</span><span class="s5"> </span><span class="s3">alt</span><span class="s5">= </span><span class="s1">"Temp vs. Latitude Scatterplt"</span><span class="s5">&gt;&lt;/</span><span class="s2">a</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">a</span><span class="s5"> </span><span class="s3">href</span><span class="s5">= </span><span class="s1">"humidity.html"</span><span class="s5">&gt;&lt;</span><span class="s2">img</span><span class="s5"> </span><span class="s3">id</span><span class="s5">= </span><span class="s1">"side-img2"</span><span class="s5"> </span><span class="s3">src</span><span class="s5">= </span><span class="s1">"Images/latitude_vs_humidity_ud_02.png"</span><span class="s5"> </span><span class="s3">alt</span><span class="s5">= </span><span class="s1">"Humidity vs. Latitude Scatterplt"</span><span class="s5">&gt;&lt;/</span><span class="s2">a</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">a</span><span class="s5"> </span><span class="s3">href</span><span class="s5">= </span><span class="s1">"cloudiness.html"</span><span class="s5">&gt;&lt;</span><span class="s2">img</span><span class="s5"> </span><span class="s3">id</span><span class="s5">= </span><span class="s1">"side-img3"</span><span class="s5"> </span><span class="s3">src</span><span class="s5">= </span><span class="s1">"Images/latitude_vs_clouds_ud_03.png"</span><span class="s5"> </span><span class="s3">alt</span><span class="s5">= </span><span class="s1">"Cloudiness vs. Latitude Scatterplt"</span><span class="s5">&gt;&lt;/</span><span class="s2">a</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p4"><span class="s5"><span class="Apple-converted-space">                        </span>&lt;</span><span class="s2">a</span><span class="s5"> </span><span class="s3">href</span><span class="s5">= </span><span class="s1">"windspeed.html"</span><span class="s5">&gt;&lt;</span><span class="s2">img</span><span class="s5"> </span><span class="s3">id</span><span class="s5">= </span><span class="s1">"side-img4"</span><span class="s5"> </span><span class="s3">src</span><span class="s5">= </span><span class="s1">"Images/latitude_vs_winds_ud_04.png"</span><span class="s5"> </span><span class="s3">alt</span><span class="s5">= </span><span class="s1">"Wind Speed vs. Latitude Scatterplt"</span><span class="s5">&gt;&lt;/</span><span class="s2">a</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p6"><span class="s1">&lt;!--END DIV CLASSES--&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"></span><br></p>
+        <p class="p5"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s5">&lt;/</span><span class="s1">body</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p5"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td2">
+        <p class="p2"><span class="s1"></span><br></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p3"><span class="s5">&lt;/</span><span class="s1">html</span><span class="s5">&gt;</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
